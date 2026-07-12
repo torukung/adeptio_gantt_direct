@@ -41,7 +41,7 @@ Wrangler prints your Worker URL, e.g. `https://adeptio-gantt.<subdomain>.workers
 Check it: visiting `…/api/health` should return `{"ok":true,…}`.
 
 ## 2. Connect the app
-In `app.js`, near the top of the STORE section, set:
+In `public/app.js`, near the top of the STORE section, set:
 ```js
 const API_BASE  = "https://adeptio-gantt.<subdomain>.workers.dev";
 const API_TOKEN = "the-same-token-you-set-above";
