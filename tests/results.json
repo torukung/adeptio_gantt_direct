@@ -1,0 +1,1607 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "/Users/pathom/Documents/AI Workshop/Adeptio - Obsidian Vault/ADEPTIO/Dynamic Gantt Chart/Branch Versions/adeptio_gantt/tests/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/pathom/Documents/AI Workshop/Adeptio - Obsidian Vault/ADEPTIO/Dynamic Gantt Chart/Branch Versions/adeptio_gantt/tests/playwright.config.js",
+    "rootDir": "/Users/pathom/Documents/AI Workshop/Adeptio - Obsidian Vault/ADEPTIO/Dynamic Gantt Chart/Branch Versions/adeptio_gantt/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/pathom/Documents/AI Workshop/Adeptio - Obsidian Vault/ADEPTIO/Dynamic Gantt Chart/Branch Versions/adeptio_gantt/tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/pathom/Documents/AI Workshop/Adeptio - Obsidian Vault/ADEPTIO/Dynamic Gantt Chart/Branch Versions/adeptio_gantt/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/Users/pathom/Documents/AI Workshop/Adeptio - Obsidian Vault/ADEPTIO/Dynamic Gantt Chart/Branch Versions/adeptio_gantt/tests/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.61.1",
+    "workers": 1,
+    "webServer": {
+      "command": "python3 -m http.server 4173",
+      "cwd": "/Users/pathom/Documents/AI Workshop/Adeptio - Obsidian Vault/ADEPTIO/Dynamic Gantt Chart/Branch Versions/adeptio_gantt",
+      "url": "http://localhost:4173",
+      "reuseExistingServer": true,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "baseline.spec.js",
+      "file": "baseline.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "baseline regression (default seed)",
+          "file": "baseline.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "dashboard renders all seeded projects",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4125,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:14:59.700Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "baebd2168b197d5b0eef-fd3665c5a671047af0e2",
+              "file": "baseline.spec.js",
+              "line": 7,
+              "column": 3
+            },
+            {
+              "title": "open a project → summary then timeline; panes aligned on REAL data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1569,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:05.263Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "baebd2168b197d5b0eef-d22c629a0a5f89dc8583",
+              "file": "baseline.spec.js",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "summary text saves to localStorage",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1176,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:06.849Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "baebd2168b197d5b0eef-898bd3adbb083799b277",
+              "file": "baseline.spec.js",
+              "line": 28,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "fixcancel.spec.js",
+      "file": "fixcancel.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "FIX7(module): a pointercancel clears the drag guard and un-freezes background sync",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1662,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T06:15:08.065Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5d91d1d89a43b0230cb7-049344436b12aef517ee",
+          "file": "fixcancel.spec.js",
+          "line": 27,
+          "column": 1
+        },
+        {
+          "title": "FIX7(bar): a pointercancel clears the guard even under setPointerCapture",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1716,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T06:15:09.742Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5d91d1d89a43b0230cb7-3b35cd2a798cd28db212",
+          "file": "fixcancel.spec.js",
+          "line": 69,
+          "column": 1
+        },
+        {
+          "title": "FIX7(central-guard): the guard latches on a handle, clears on cancel, and can never stick",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1655,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T06:15:11.475Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5d91d1d89a43b0230cb7-7f1abf234acce0392d00",
+          "file": "fixcancel.spec.js",
+          "line": 103,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "fixcolumns.spec.js",
+      "file": "fixcolumns.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "column reorder",
+          "file": "fixcolumns.spec.js",
+          "line": 34,
+          "column": 6,
+          "specs": [
+            {
+              "title": "drag the End header before the Feature header and persist colOrder",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12155,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:13.173Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0fce02921fbf2f0f6747-64a85acf7d0243ead9e2",
+              "file": "fixcolumns.spec.js",
+              "line": 44,
+              "column": 3
+            },
+            {
+              "title": "dropping a column back on itself is a no-op",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3081,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:25.342Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0fce02921fbf2f0f6747-ee792dd4d2dbc2627e89",
+              "file": "fixcolumns.spec.js",
+              "line": 56,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "column resize",
+          "file": "fixcolumns.spec.js",
+          "line": 63,
+          "column": 6,
+          "specs": [
+            {
+              "title": "dragging the resize handle widens the column and writes ui.colW only (not the doc)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3455,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:28.436Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0fce02921fbf2f0f6747-7d371e1d0bff5b1cb584",
+              "file": "fixcolumns.spec.js",
+              "line": 70,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "wrap toggle",
+          "file": "fixcolumns.spec.js",
+          "line": 102,
+          "column": 6,
+          "specs": [
+            {
+              "title": "enabling wrap grows a long-description row and re-syncs the right pane",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2731,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:31.906Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0fce02921fbf2f0f6747-6ea21e656c8e483b5ef6",
+              "file": "fixcolumns.spec.js",
+              "line": 103,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "fixes.spec.js",
+      "file": "fixes.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "FIX1: a malicious start date is HTML-escaped (no injected element, no script)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3279,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T06:15:34.667Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "121e6c18cffc95d1f66a-11b3094a01856dedc9d7",
+          "file": "fixes.spec.js",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "FIX2: summary text is persisted when navigating to history (not dropped)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2702,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T06:15:37.957Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "121e6c18cffc95d1f66a-60fcac19b93a65cbed36",
+          "file": "fixes.spec.js",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "FIX3: a live drag sets the interaction guard so a storage adopt is deferred",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2903,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T06:15:40.670Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "121e6c18cffc95d1f66a-9016ecc83588d38d7ac4",
+          "file": "fixes.spec.js",
+          "line": 77,
+          "column": 1
+        },
+        {
+          "title": "FIX4: a failed cloud push clears pushPending (no permanent adoption block)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3527,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T06:15:43.586Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "121e6c18cffc95d1f66a-be0e1559380ac7946611",
+          "file": "fixes.spec.js",
+          "line": 122,
+          "column": 1
+        },
+        {
+          "title": "FIX5: a failed localStorage write shows a warning toast (not silent)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2673,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T06:15:47.124Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "121e6c18cffc95d1f66a-3a19bdee3f76b28358c2",
+          "file": "fixes.spec.js",
+          "line": 140,
+          "column": 1
+        },
+        {
+          "title": "FIX6: resizing a column in one project does not affect another",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3202,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T06:15:49.808Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "121e6c18cffc95d1f66a-dbd8cbab193b5ccc0db2",
+          "file": "fixes.spec.js",
+          "line": 155,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "modules-v103.spec.js",
+      "file": "modules-v103.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "2.2 — module-row affordance",
+          "file": "modules-v103.spec.js",
+          "line": 36,
+          "column": 6,
+          "specs": [
+            {
+              "title": "grip + up/down buttons exist with Thai tooltips on every module row",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1489,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:53.033Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-c1bef1073091bf709c76",
+              "file": "modules-v103.spec.js",
+              "line": 37,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "2.1 — module drag & drop reorder",
+          "file": "modules-v103.spec.js",
+          "line": 50,
+          "column": 6,
+          "specs": [
+            {
+              "title": "drag a MAIN before and after another (both directions) + alignment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2778,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:54.532Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-d580c02875da514bdf23",
+              "file": "modules-v103.spec.js",
+              "line": 51,
+              "column": 3
+            },
+            {
+              "title": "dragging a MAIN block carries its sub-modules as a unit",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2145,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:57.319Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-e0287d9be5a675e8b42b",
+              "file": "modules-v103.spec.js",
+              "line": 70,
+              "column": 3
+            },
+            {
+              "title": "dragging a SUB onto a MAIN row re-parents it as that main's first sub",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2246,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:15:59.476Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-31b742bda660ec8639f7",
+              "file": "modules-v103.spec.js",
+              "line": 89,
+              "column": 3
+            },
+            {
+              "title": "dragging a SUB next to another SUB adopts that sub's parent",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2095,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:01.734Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-945b71d2bc25ec67016a",
+              "file": "modules-v103.spec.js",
+              "line": 103,
+              "column": 3
+            },
+            {
+              "title": "feature-row drag-reorder still works (no regression)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2065,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:03.841Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-f86d6abd0cad0d13f4b0",
+              "file": "modules-v103.spec.js",
+              "line": 116,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "2.1 — modup / moddown buttons",
+          "file": "modules-v103.spec.js",
+          "line": 129,
+          "column": 6,
+          "specs": [
+            {
+              "title": "moddown/modup move a MAIN block past the adjacent MAIN block",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1743,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:05.918Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-b45729529da833fd2ce2",
+              "file": "modules-v103.spec.js",
+              "line": 130,
+              "column": 3
+            },
+            {
+              "title": "modup swaps a SUB with its adjacent sibling only",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1657,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:07.671Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-f0a0a129683a51ceecdb",
+              "file": "modules-v103.spec.js",
+              "line": 145,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "2.2.1 — module modal type + parent picker",
+          "file": "modules-v103.spec.js",
+          "line": 160,
+          "column": 6,
+          "specs": [
+            {
+              "title": "segmented control + parent select creates a sub under the chosen main",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1780,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:09.339Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-7afbeadb2b658ba93ac0",
+              "file": "modules-v103.spec.js",
+              "line": 161,
+              "column": 3
+            },
+            {
+              "title": "editing a MAIN that has subs DISABLES the Sub-Module option with the Thai hint",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1597,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:11.128Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-1510f07db3529339c68b",
+              "file": "modules-v103.spec.js",
+              "line": 175,
+              "column": 3
+            },
+            {
+              "title": "parent <select> excludes the module being edited",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1506,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:12.734Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-8a6e9c02196d8795422b",
+              "file": "modules-v103.spec.js",
+              "line": 183,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "2.2.2 — tree-line rails",
+          "file": "modules-v103.spec.js",
+          "line": 195,
+          "column": 6,
+          "specs": [
+            {
+              "title": "sub rows carry subMod/subScope/subEnd classes with visible pseudo-element rails",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1445,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:14.251Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-587c4f948c0c497df128",
+              "file": "modules-v103.spec.js",
+              "line": 196,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "2.4 — step indentation",
+          "file": "modules-v103.spec.js",
+          "line": 221,
+          "column": 6,
+          "specs": [
+            {
+              "title": "padding-left / chip offset grows one step per hierarchy level",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1458,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:15.706Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-6e7f372f38361d5ab385",
+              "file": "modules-v103.spec.js",
+              "line": 222,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "consistency touchpoints",
+          "file": "modules-v103.spec.js",
+          "line": 242,
+          "column": 6,
+          "specs": [
+            {
+              "title": "delete a MAIN with subs → confirm text + subs promoted to main",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1631,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:17.174Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-d04f38856db40ed47385",
+              "file": "modules-v103.spec.js",
+              "line": 243,
+              "column": 3
+            },
+            {
+              "title": "collapsing a MAIN hides only its own features; subs stay visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1588,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:18.815Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-1d3be502200ffaffade7",
+              "file": "modules-v103.spec.js",
+              "line": 269,
+              "column": 3
+            },
+            {
+              "title": "Excel Export button is present (intact)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1454,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:20.413Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-1bfbf161c2ce318dbfa0",
+              "file": "modules-v103.spec.js",
+              "line": 282,
+              "column": 3
+            },
+            {
+              "title": "progress panel prefixes sub-module rows with ↳",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1270,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:21.876Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-7e2e15feea4561996bb1",
+              "file": "modules-v103.spec.js",
+              "line": 289,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "persistence — parentId + order survive reload",
+          "file": "modules-v103.spec.js",
+          "line": 303,
+          "column": 6,
+          "specs": [
+            {
+              "title": "create a sub, reload, and render order + parentId are identical",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1891,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:23.156Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-69850a56658e9c361a80",
+              "file": "modules-v103.spec.js",
+              "line": 304,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "safety — production API is blocked",
+          "file": "modules-v103.spec.js",
+          "line": 330,
+          "column": 6,
+          "specs": [
+            {
+              "title": "no request ever reaches the production Worker (all aborted)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2545,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:25.057Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5c737e863bbc01f44d2-8bc645e68aaa6d46d0ab",
+              "file": "modules-v103.spec.js",
+              "line": 331,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "slidinglabels.spec.js",
+      "file": "slidinglabels.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "sliding sticky Gantt labels",
+          "file": "slidinglabels.spec.js",
+          "line": 62,
+          "column": 6,
+          "specs": [
+            {
+              "title": "wide bar: start scrolled off-left → label slides to stay just inside the viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1507,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:27.623Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "14ff0b1bb37baebf5084-5914d857be01de639a8b",
+              "file": "slidinglabels.spec.js",
+              "line": 63,
+              "column": 3
+            },
+            {
+              "title": "scroll back to 0 → the slide transform is cleared (label sits at the bar start)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1538,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:29.142Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "14ff0b1bb37baebf5084-906af53105824441d1c2",
+              "file": "slidinglabels.spec.js",
+              "line": 90,
+              "column": 3
+            },
+            {
+              "title": "scrolled past the clamp → label clips and the hover bubble shows the full name",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1546,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:30.690Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "14ff0b1bb37baebf5084-00e9504238702ca612c2",
+              "file": "slidinglabels.spec.js",
+              "line": 103,
+              "column": 3
+            },
+            {
+              "title": "small bar (narrower than its label) still shows the hover bubble",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1525,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:32.246Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "14ff0b1bb37baebf5084-0c4d96f8e3e5e202e600",
+              "file": "slidinglabels.spec.js",
+              "line": 143,
+              "column": 3
+            },
+            {
+              "title": "left/right pane vertical alignment still holds after a horizontal scroll",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1522,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-07-11T06:16:33.780Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "14ff0b1bb37baebf5084-dd573a8f5ae1a497d28e",
+              "file": "slidinglabels.spec.js",
+              "line": 167,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-11T06:14:41.655Z",
+    "duration": 113732.696,
+    "expected": 40,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
